@@ -30,6 +30,22 @@ body {
     background-size: cover;
     background-position: center;
   }
+  .banner-container > .container{
+    width: 100%;
+    padding-top: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff ;
+    padding-bottom: 150px;
+}
+  .banner-container > .container h1 {
+font-size: 1.875rem;
+    font-weight: 300;
+    max-width: 50%;
+text-align: center;
+
+  }
 
   .banner-container header .container {
     width: 100%;
@@ -274,7 +290,8 @@ body {
 
   }
   section.blog-main > .container {
-    padding: 0 20px;
+    padding:60px 20px;
+
   }
 
   section.blog-main .container .main .image-container {
@@ -282,6 +299,7 @@ body {
     position: relative;
     margin-bottom: 30px;
     height: 100%;
+    background-color: violet;
   }
   section.blog-main .container .main .image-container img {
     width: 100%;
@@ -402,7 +420,7 @@ body {
     margin-bottom: 20px;
   }
 
-  section.blog-main .container aside form.search {
+  section.blog-main > .container aside form.search {
     width: 100%;
     background-color: var(--blog-background-color);
     display: flex;
@@ -431,13 +449,13 @@ body {
     color: #999999;
   }
 
-  section.blog-main .container aside form.search .container input {
+  section.blog-main > .container aside form.search .container input {
     padding: 17px 0;
     width: 100%;
     border: none;
     background-color: #fff;
   }
-  section.blog-main .container aside form.search .container input::placeholder {
+  section.blog-main > .container aside form.search .container input::placeholder {
     padding-left: 20px;
     color: #999999;
 
@@ -459,7 +477,7 @@ body {
   }
 
 
-  section.blog-main .container aside .category {
+  section.blog-main > .container aside .category {
     width: 100%;
     padding: 40px 30px;
     background-color: var(--blog-background-color);
@@ -467,19 +485,19 @@ body {
 
   }
 
-  section.blog-main .container aside .category .category-list {
+  section.blog-main > .container aside .category .category-list {
     list-style: none;
   }
-  section.blog-main .container aside .category .category-list li {
+  section.blog-main > .container aside .category .category-list li {
     padding: 18px 0 18px;
     border-top: 1px solid var(--light-border-color);
   }
 
-  section.blog-main .container aside .category .category-list li:first-child {
+  section.blog-main > .container aside .category .category-list li:first-child {
     padding-top: 55px;
     border-top: none;
   }
-  section.blog-main .container aside .category .category-list li a:link {
+  section.blog-main > .container aside .category .category-list li a:link {
     text-decoration: none;
     color: var(--light-text-color);
     font-weight: lighter;
@@ -487,7 +505,7 @@ body {
   }
 
 
-  section.blog-main .container aside .recent-post {
+  section.blog-main > .container aside .recent-post {
     width: 100%;
     background-color: var(--blog-background-color);
     padding: 40px 30px;
@@ -498,7 +516,7 @@ body {
       padding: 20px;
 
     }*/
-  section.blog-main .container aside .recent-post .post-list {
+  section.blog-main > .container aside .recent-post .post-list {
     list-style: none;
     padding-top: 20px;
     display: flex;
@@ -506,15 +524,15 @@ body {
     gap: 20px;
 
   }
-  section.blog-main .container aside .recent-post .post-list li {
+  section.blog-main > .container aside .recent-post .post-list li {
     display: flex;
     gap: 20px;
   }
-  section.blog-main .container aside .recent-post .post-list li:first-child {
+  section.blog-main > .container aside .recent-post .post-list li:first-child {
     padding-top: 45px;
   }
 
-  section.blog-main .container aside .recent-post .post-list li .container {
+  section.blog-main > .container aside .recent-post .post-list li .container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -588,7 +606,7 @@ body {
     }*/
 
 
-  section.blog-main .container aside form.subscribe {
+  section.blog-main > .container aside form.subscribe {
     width: 100%;
     background-color: var(--blog-background-color);
     display: flex;
@@ -600,7 +618,7 @@ body {
     margin-bottom: 90px;
   }
 
-  section.blog-main .container aside form.subscribe h2 {
+  section.blog-main > .container aside form.subscribe h2 {
    /* align-self: flex-start;
     padding-bottom: 20px;
     border-bottom: 1px solid var(--light-border-color);
@@ -614,14 +632,14 @@ body {
 
 
 
-  section.blog-main .container aside form.subscribe  input {
+  section.blog-main > .container aside form.subscribe  input {
     padding: 17px 0;
     width: 100%;
     background-color: #fff;
     border: 1px solid #ced4da;
 
   }
-  section.blog-main .container aside form.subscribe input::placeholder {
+  section.blog-main > .container aside form.subscribe input::placeholder {
     padding-left: 20px;
     color: #999999;
 
@@ -647,7 +665,7 @@ body {
   /* ------------------START of blog-detail.html-------------------*/
 
   .main section.single-blog {
-    padding: 100px 0 0 0;
+    padding: 120px 0 0 0;
   }
 
   section.blog-main {
@@ -656,7 +674,6 @@ body {
 
   .main section.single-blog > .container {
     padding: 0 15px;
-
   }
   /*
     section.single-blog > .container aside{
@@ -1109,6 +1126,7 @@ body {
   }
   section.four {
     background-color: var(--dark-background-color);
+
     padding-top: 130px;
     padding-bottom: 130px;
   }
@@ -1404,6 +1422,25 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+  .banner-container > .container h1 {
+    font-weight: 300;
+
+  }
+  .banner-container > .container {
+    padding-top: 60px;
+
+    padding-bottom: 122px;
+  }
+
+
+ /* section.four {
+    background-color: var(--dark-background-color);
+
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }*/
+
+
   .banner-container header .container {
     padding: 10px 30px;
   }
@@ -1489,8 +1526,20 @@ body {
     height: 300px;
   }
   section.four > .container {
-    padding: 0 40px;
+ /*   padding: 0 40px;*/
+    padding: 100px 40px;
   }
+  /* ------------------works.html-------------------*/
+
+
+  .banner-container > .container h1 {
+    font-size: 5rem;
+  font-weight: 300;
+  }
+
+  /* ------------------works.html-------------------*/
+
+
   section.four > .container h2 {
     font-size: 2.2rem;
     margin-bottom: 60px;
@@ -1605,6 +1654,12 @@ body {
     max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .banner-container > .container {
+    padding-top: 135px;
+
+    padding-bottom: 197px;
   }
 
   .banner-container header {
@@ -1823,5 +1878,11 @@ body {
   }
   .banner-container section.one .container {
     padding-left: 20px;
+  }
+  .banner-container > .container{
+
+    padding-top: 158px;
+
+    padding-bottom: 220px;
   }
 }
